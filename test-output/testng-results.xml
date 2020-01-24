@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail" duration-ms="44836" started-at="2019-12-02T16:37:23Z" finished-at="2019-12-02T16:38:07Z">
+    <groups>
+    </groups>
+    <test name="Message send" duration-ms="44836" started-at="2019-12-02T16:37:23Z" finished-at="2019-12-02T16:38:07Z">
+      <class name="fileTransfer.Message">
+        <test-method status="PASS" signature="Browser(java.lang.String)[pri:1, instance:fileTransfer.Message@215be6bb]" name="Browser" duration-ms="17739" started-at="2019-12-02T22:07:23Z" finished-at="2019-12-02T22:07:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method status="PASS" signature="link(java.lang.String)[pri:2, instance:fileTransfer.Message@215be6bb]" name="link" duration-ms="3759" started-at="2019-12-02T22:07:40Z" finished-at="2019-12-02T22:07:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://accounts.google.com/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link -->
+        <test-method status="PASS" signature="credentials(java.lang.String, java.lang.String)[pri:3, instance:fileTransfer.Message@215be6bb]" name="credentials" duration-ms="4737" started-at="2019-12-02T22:07:44Z" finished-at="2019-12-02T22:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srinuk247hh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8019986966]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentials -->
+        <test-method status="PASS" signature="send()[pri:4, instance:fileTransfer.Message@215be6bb]" name="send" duration-ms="18541" started-at="2019-12-02T22:07:49Z" finished-at="2019-12-02T22:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send -->
+        <test-method status="FAIL" signature="compose(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:fileTransfer.Message@215be6bb]" name="compose" duration-ms="0" started-at="2019-12-02T22:08:07Z" finished-at="2019-12-02T22:08:07Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method compose requires 3 parameters but 2 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method compose requires 3 parameters but 2 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:251)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:172)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compose -->
+      </class> <!-- fileTransfer.Message -->
+    </test> <!-- Message send -->
+  </suite> <!-- Gmail -->
+</testng-results>

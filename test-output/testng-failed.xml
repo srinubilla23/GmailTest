@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gmail]">
+  <test name="Message send(failed)">
+    <parameter name="password" value="8019986966"/>
+    <parameter name="subject" value="This is Automatic Generated Message"/>
+    <parameter name="mailid" value="kranthireddynandyala@gmail.com"/>
+    <parameter name="message" value="&#039;Jeena Hain to Marna Seekho. Kadam Kadam Par Ladna Seekho.&#039;"/>
+    <parameter name="url" value="https://accounts.google.com/signin"/>
+    <parameter name="Browser" value="c"/>
+    <parameter name="username" value="srinuk247hh@gmail.com"/>
+    <classes>
+      <class name="fileTransfer.Message">
+        <methods>
+          <include name="compose"/>
+        </methods>
+      </class> <!-- fileTransfer.Message -->
+    </classes>
+  </test> <!-- Message send(failed) -->
+</suite> <!-- Failed suite [Gmail] -->

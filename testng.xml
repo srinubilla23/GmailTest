@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gmail">
+  <test name="Message send">
+  		<parameter name="Browser" value="c"/>
+  		<parameter name="url" value="https://accounts.google.com/signin"/>
+  		<parameter name="username" value="srinuk247hh@gmail.com"/>
+  		<parameter name="password" value="8019986966"/>
+  		<!-- <parameter name="image" value="F:\\Download\\Images\\Bug Screenshot\\GmailCompose.JPG"/> -->
+  		<parameter name="mailid" value="kranthireddynandyala@gmail.com"/>
+  		<parameter name="subject" value="This is Automatic Generated Message"/>
+  		<parameter name="message" value="'Jeena Hain to Marna Seekho. Kadam Kadam Par Ladna Seekho.'"/>
+    <classes>
+      <class name="fileTransfer.Message"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
