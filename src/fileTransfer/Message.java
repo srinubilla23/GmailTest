@@ -63,7 +63,7 @@ public class Message
 		WebElement user1 = driver.findElement(By.id("identifierId"));
 		user1.sendKeys(username);
 
-		if (username.equals("srinuk247hh@gmail.com")) {
+		if (username.equals("abc@gmail.com")) {
 			System.out.println("Username Test Pass");
 		}
 
@@ -81,7 +81,7 @@ public class Message
 		WebElement pass1 = driver.findElement(By.name("password"));
 		pass1.sendKeys(password);
 
-		if (password.equals("8019986966")) {
+		if (password.equals("987654321")) {
 			System.out.println("Password Test Pass");
 		}
 
